@@ -52,7 +52,7 @@
                 <div class="column right">
                     <div class="text">I'm Ravikanth and I'm <span>Web Developer and Programmer</span></div>
                     <p>Hello, I'm Ravikanth, a passionate computer science student with a relentless curiosity for all things web development. Currently pursuing my BTech at V S M College of Engineering, I am on a mission to leverage technology to create seamless and innovative online experiences. My journey in the world of programming has been fueled by a deep fascination with crafting elegant solutions to real-world challenges.</p>
-                    <a href="#">Download CV</a>
+                    <a href="resume.pdf" download>Download CV</a>
                 </div>
             </div>
         </div>
@@ -118,24 +118,33 @@
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Web Development</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <img src="images/pglife.png" />
+                        <div class="text">PGLife</div>
+                        <p>PGLife is a website that was created for Paid Guests who stay in different places in India's most famous cities. It provides rental services for customers to book rooms over selected places</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="text">Python Programming</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <img src="images/sportsweb.png" />
+                        <div class="text">SportsWeb</div>
+                        <p>Sportsweb is a dynamic and interactive web application. It is a platform for accessing Stadiums and Sports information, news, and
+                            interactive features to find the Stadium's History</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                        <img src="" />
+                        <div class="text">RPS Game</div>
+                        <p>RPS (Rock, Paper and Scissors) is a python based game. Which will ask the user to
+                            select either rock paper or scissors. And the computer also chooses one out of three randomly.</p>
                     </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/SpaceX.png" />
+                        <div class="text">SpaceX</div>
+                        <p>SpaceX is a dynamic and interactive web application. It is a platform for accessing the space missions and astronauts infromation, the admins can add, update and delete the information.</p>
+                     </div>
                 </div>
                 </div>
             </div>
@@ -176,20 +185,21 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="https://formspree.io/f/xbjnkogy"
+                    method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Name" name="name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" placeholder="Email" name="email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" placeholder="Subject" name="subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Message.." name="message" required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
