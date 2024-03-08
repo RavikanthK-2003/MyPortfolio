@@ -265,6 +265,10 @@ section .title::after{
     content: "what i done";
 }
 
+.projects a:hover {
+    color: #fff;
+}
+
 .projects .serv-content {
     display: flex;
     justify-content: space-around;
