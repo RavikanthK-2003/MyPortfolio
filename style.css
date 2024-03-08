@@ -265,7 +265,7 @@ section .title::after{
     content: "what i done";
 }
 
-.projects a:hover {
+.projects a:visited {
     color: #fff;
 }
 
